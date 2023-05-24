@@ -5,9 +5,10 @@ import (
 	"database/sql"
 	"database/sql/driver"
 	"errors"
-	"github.com/sijms/go-ora/v2/converters"
-	"github.com/sijms/go-ora/v2/network"
 	"time"
+
+	"github.com/victorien-a/go-ora/v2/converters"
+	"github.com/victorien-a/go-ora/v2/network"
 )
 
 func (par *ParameterInfo) encodeArrayFloat(session *network.Session, value []float64) error {

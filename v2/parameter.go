@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sijms/go-ora/v2/converters"
-	"github.com/sijms/go-ora/v2/network"
+	"github.com/victorien-a/go-ora/v2/converters"
+	"github.com/victorien-a/go-ora/v2/network"
 )
 
 type OracleType int

@@ -3,7 +3,8 @@ package go_ora
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/sijms/go-ora/v2/network"
+
+	"github.com/victorien-a/go-ora/v2/network"
 )
 
 type urowid struct {

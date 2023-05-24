@@ -7,13 +7,14 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/sijms/go-ora/v2/advanced_nego"
-	"github.com/sijms/go-ora/v2/converters"
-	"github.com/sijms/go-ora/v2/network"
 	"reflect"
 	"regexp"
 	"strconv"
 	"strings"
+
+	"github.com/victorien-a/go-ora/v2/advanced_nego"
+	"github.com/victorien-a/go-ora/v2/converters"
+	"github.com/victorien-a/go-ora/v2/network"
 )
 
 type ConnectionState int

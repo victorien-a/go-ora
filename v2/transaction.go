@@ -2,7 +2,8 @@ package go_ora
 
 import (
 	"context"
-	"github.com/sijms/go-ora/v2/network"
+
+	"github.com/victorien-a/go-ora/v2/network"
 )
 
 type Transaction struct {
