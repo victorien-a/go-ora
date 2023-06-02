@@ -108,7 +108,7 @@ type OracleDriver struct {
 }
 
 func init() {
-	sql.Register("oracle", &OracleDriver{})
+	sql.Register("oracleTCPS", &OracleDriver{})
 }
 
 func (drv *OracleDriver) OpenConnector(name string) (driver.Connector, error) {
